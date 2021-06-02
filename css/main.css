@@ -1,0 +1,73 @@
+.titulo {
+  text-align: center;
+}
+
+.carrito {
+  width: 5%;
+  float: right;
+}
+
+.grupo_tecnologico {
+  text-align: center;
+}
+
+.grupo_tecnologico .foto_tecnologia {
+  width: 30%;
+}
+
+.grupo_tecnologico .agregar {
+  display: grid;
+  margin-left: 45%;
+}
+
+.grupo_electro {
+  text-align: center;
+}
+
+.grupo_electro .foto_electro {
+  width: 20%;
+}
+
+.grupo_electro .agregar {
+  display: grid;
+  margin-left: 45%;
+}
+
+.grupo_dormitorio {
+  text-align: center;
+}
+
+.grupo_dormitorio .foto_dormitorio {
+  width: 30%;
+}
+
+.grupo_dormitorio .agregar {
+  display: grid;
+  margin-left: 45%;
+}
+
+.grupo_telefonico {
+  text-align: center;
+}
+
+.grupo_telefonico .foto_telefonos {
+  width: 30%;
+}
+
+.grupo_telefonico .agregar {
+  display: grid;
+  margin-left: 45%;
+}
+
+.grupo_deportivo {
+  text-align: center;
+}
+
+.grupo_deportivo .foto_deportivos {
+  width: 30%;
+}
+
+.grupo_deportivo .agregar {
+  display: grid;
+  margin-left: 45%;
+}
