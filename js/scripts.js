@@ -1,0 +1,30 @@
+$("#agregar_tv").click(function(){
+    $('#contenido').append("Smat TV");
+});
+$("#agregar_notebook").click(function(){
+    $('#contenido').append("notebook");
+});
+$("#agregar_refri").click(function(){
+    $('#contenido').append("refrigerador");
+});
+$("#agregar_lavadora").click(function(){
+    $('#contenido').append("Lavadora");
+});
+$("#agregar_cama").click(function(){
+    $('#contenido').append("Cama");
+});
+$("#agregar_comoda").click(function(){
+    $('#contenido').append("comoda");
+});
+$("#agregar_smartphone").click(function(){
+    $('#contenido').append("smartphone");
+});
+$("#agregar_cable").click(function(){
+    $('#contenido').append("cable");
+});
+$("#agregar_poleron").click(function(){
+    $('#contenido').append("poleron");
+});
+$("#agregar_bici").click(function(){
+    $('#contenido').append("bici");
+});
