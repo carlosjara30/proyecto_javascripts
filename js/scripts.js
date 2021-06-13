@@ -1,30 +1,37 @@
-$("#agregar_tv").click(function(){
-    $('#contenido').append("Smat TV");
+
+$("#agregar_tv").click(function (){
+    $('#tv').append("Smart tv ");
+    $('#tv').css("background-color","yellow");
+        
 });
 $("#agregar_notebook").click(function(){
-    $('#contenido').append("notebook");
+    $('#notebook').append("notebook ");
+    $('#notebook').css("background-color","red");
 });
 $("#agregar_refri").click(function(){
-    $('#contenido').append("refrigerador");
+    $('#refrigerador').append("refrigerador ");
+    $('#refrigerador').css({"background-color":"green",
+                            "border":"5px solid"});
 });
 $("#agregar_lavadora").click(function(){
-    $('#contenido').append("Lavadora");
+    $('#lavadora').append("Lavadora ");
+    
 });
 $("#agregar_cama").click(function(){
-    $('#contenido').append("Cama");
+    $('#cama').append("Cama");
 });
 $("#agregar_comoda").click(function(){
-    $('#contenido').append("comoda");
+    $('#comoda').append("comoda ");
 });
 $("#agregar_smartphone").click(function(){
-    $('#contenido').append("smartphone");
+    $('#smartphone').append("smartphone");
 });
 $("#agregar_cable").click(function(){
-    $('#contenido').append("cable");
+    $('#cable').append("cable ");
 });
 $("#agregar_poleron").click(function(){
-    $('#contenido').append("poleron");
+    $('#poleron').append("poleron ");
 });
 $("#agregar_bici").click(function(){
-    $('#contenido').append("bici");
+    $('#bici').append("bici ");
 });

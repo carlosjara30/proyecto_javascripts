@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <script src="js/scripts.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
+   
     <title>Simulador</title>
 
 </head>
@@ -21,58 +24,95 @@
                     <!--primer productos tecnologicos-->
                     <h2 class="titulo_galeria">Productos tecnologicos</h2>
                     <img src="imagenes/TV.jpg"  class="foto_tecnologia">
-                    <p class="texto_imagen_tecnologico" id="Smart_TV">OLED 55" OLED55C1PSA.AWH 4K HDR Smart TV</p>     
+                    <p class="texto_imagen_tecnologico" id="Smart_TV">OLED 55" OLED55C1PSA.AWH 4K HDR Smart TV</p>  
+                    <h3 class="precio_tv" id="precio_tv">$400.000</h3>   
                     <button class="agregar" id="agregar_tv">Agregar al carrito</button>
-    
+                    <div id="tv"></div>
+                
                     <!--segundo productos tecnologicos-->
                     <img src="imagenes/NOTEBOOK.jpg" alt="" class="foto_tecnologia"> 
                     <p class="texto_imagen_tecnologico">Notebook Gamer Nitro 5 Intel Core i7 16GB RAM 512GB SSD NVIDIA GeForce RTX 3060 15.6"</p>     
+                    <h3 class="precio_notebook" id="precio_notebook">$600.000</h3> 
                     <button class="agregar" id="agregar_notebook">Agregar al carrito</button>
+                    <div id="notebook"></div>
                 </div>
             
                 <div class="grupo_electro">
+                    <!--primer productos electro-->
                     <h2 class="titulo_galeria">Productos electro</h2>
                     <img src="imagenes/refigerador.jpg" alt="" class="foto_electro">
-                    <p class="texto_imagen_tecnologico">Refigerador Side By Side 562 lt RC-74WSD"</p>     
+                    <p class="texto_imagen_tecnologico">Refigerador Side By Side 562 lt RC-74WSD"</p>    
+                    <h3 class="precio_refrigerador" id="precio_refrigerador">$900.000</h3>  
                     <button class="agregar" id="agregar_refri">Agregar al carrito</button>
+                    <div id="refrigerador"></div>
+
+                    <!--segundo productos electro-->
                     <img src="imagenes/lavadora.jpg" alt="" class="foto_electro"> 
                     <p class="texto_imagen_electro">Lavadora-Secadora 9/6 kg DWC-K9630W</p>
+                    <h3 class="precio_lavadora" id="precio_lavadora">$300.000</h3>  
                     <button class="agregar" id="agregar_lavadora">Agregar al carrito</button>
+                     <div id="lavadora"></div>
+
                 </div>  
                 
                 <div class="grupo_dormitorio"> 
+                    <!--primer productos dormitorio-->
                     <h2 class="titulo_galeria">Productos dormitorios</h2> 
                     <img src="imagenes/cama.jpg" alt="" class="foto_dormitorio">
                     <p class="texto_imagen_dormitorio">Cama Europea Ergo T 2 plazas BD 150x200cm Rosen + Muebles Ferrara</p>
-                    <button class="agregar_cama" id="agregar">Agregar al carrito</button>
+                    <h3 class="precio_cama" id="precio_cama">$550.000</h3> 
+                    <button class="agregar" id="agregar_cama">Agregar al carrito</button>
+                    <div id="cama"></div>
+
+                     <!--segundo productos dormitorio-->
                     <img src="imagenes/comoda.jpg" alt="" class="foto_dormitorio"> 
                     <p class="texto_imagen_dormitorio">Cómoda Altair Wengue CIC</p>
+                    <h3 class="precio_comoda" id="precio_comoda">$200.000</h3>
                     <button class="agregar" id="agregar_comoda">Agregar al carrito</button>
+                     <div id="comoda"></div>
+
                 </div>
                 
                 <div class="grupo_telefonico">
+                    <!--primer productos telefonicos-->
                     <h2 class="titulo_galeria">Productos Telefonicos</h2>
                     <img src="imagenes/celular.jpg" alt="" class="foto_telefonos">
                     <p class="texto_imagen_telefonos">Smartphone iPhone 12 64GB</p>
+                    <h3 class="precio_smartphone" id="precio_smartphone">$499.900</h3> 
                     <button class="agregar" id="agregar_smartphone">Agregar al carrito</button>
+                     <div id="smartphone"></div>
+
+                    <!--segundo productos telefonicos-->
                     <img src="imagenes/accesorio.jpg" alt="" class="foto_telefonos"> 
                     <p class="texto_imagen_telefonos">Cable Micro Usb</p>
+                    <h3 class="precio_cable" id="precio_cable">$20.000</h3> 
                     <button class="agregar" id="agregar_cable">Agregar al carrito</button>
+                     <div id="cable"></div>
+
                 </div>
                 
                 <div class="grupo_deportivo">
+                    <!--primer productos deportivos-->
                     <h2 class="titulo_galeria">Productos deportivos</h2>
                     <img src="imagenes/poleron.jpg" alt="" class="foto_deportivos">
                     <p class="texto_imagen_deportivos">Polerón Hombre</p>
+                    <h3 class="precio_poleron" id="precio_poleron">$15.000</h3> 
                     <button class="agregar" id="agregar_poleron">Agregar al carrito</button>
+                    <div id="poleron"></div>
+
+                     <!--segundo productos deportivos-->
                     <img src="imagenes/bici.jpg" alt="" class="foto_deportivos"> 
                     <p class="texto_imagen_deportivos">Bicicleta Ox 28 Cityfixer 1 T/52 Negro</p>
+                    <h3 class="precio_bici" id="precio_bi">$200.000</h3> 
                     <button class="agregar" id="agregar_bici">Agregar al carrito</button>
+                     <div id="bici"></div>
+
                 </div>
             </article>    
         </section>          
     </main>
     <script src="js/scripts.js"></script>
-    <script src="js/jquery-3.6.0.min.js"></script>
+    <script   src="https://code.jquery.com/jquery-3.6.0.js"   integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="   crossorigin="anonymous"></script>
+   
 </body>
 </html>
