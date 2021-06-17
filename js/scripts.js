@@ -1,17 +1,14 @@
 
-$("#agregar_tv").click(function (){
-    $('#tv').append("Smart tv ");
-    $('#tv').css("background-color","yellow");
-        
-});
+$("#agregar_tv").click(function (){    
+    $('#tv').append("tv ");
+});   
 $("#agregar_notebook").click(function(){
     $('#notebook').append("notebook ");
-    $('#notebook').css("background-color","red");
+    
 });
 $("#agregar_refri").click(function(){
     $('#refrigerador').append("refrigerador ");
-    $('#refrigerador').css({"background-color":"green",
-                            "border":"5px solid"});
+    
 });
 $("#agregar_lavadora").click(function(){
     $('#lavadora').append("Lavadora ");
